@@ -1,4 +1,5 @@
-class Rental {
+package sourcecode;
+public class Rental {
     private Movie movie;
     private int daysRented;
     public Rental(Movie newmovie, int newdaysRented) {
