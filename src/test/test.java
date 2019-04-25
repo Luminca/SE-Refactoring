@@ -19,7 +19,7 @@ class test {
 		Customer max = new Customer("Max");
 		max.addRental(rentalharryPotter);
 
-		assertEquals(6.5, max.amountFor(rentalharryPotter), 0.0001);
+		assertEquals(3.5, max.amountFor(rentalharryPotter), 0.0001);
 	}
 
 }
